@@ -22,10 +22,11 @@
         .container{
             border-radius: 3rem;
             width: 40rem;
-            height: 56rem;
+            height: 58rem;
             margin: 5rem auto;
             background: #383838;
             color: white;
+            display: flex;
             flex-direction: column;
             align-items: center;
             overflow: hidden;
@@ -56,7 +57,7 @@
             border: 1px solid rgb(32, 32, 32);
             margin-top: 1rem;
             background-color: rgb(24, 24, 24);
-            height: 6.5rem;
+            height: 5rem;
             width: 100%;
             display: flex;
             justify-content: center;
@@ -71,6 +72,25 @@
             align-items: center;
             font-size: 1.5rem;
         }
+        .links div:nth-child(2) {
+            border-left: 1px solid rgb(32, 32, 32);
+            border-right: 1px solid rgb(32, 32, 32);
+        }
+        .links div:nth-child(1) {
+            font-weight: 800;
+            font-size: 1.7rem;
+        }
+        .SendEmail{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 1rem;
+        }
+        .links div:nth-child(1) {
+        
+        }
+
     </style>
 </head>
 <body>
@@ -78,23 +98,23 @@
         <img class="banner"src="./img/descarga(3).png"alt="Banner">
         <img class="profile-img"src="./img/IMG_1551.jpg"alt="Profile">
         <h1 class="name">Mateo González Marulanda</h1>
-        <p class="rol">Front End Developer<br> and <br>Machine Learning Engineer</p>>
+        <p class="rol">Front End Developer<br> and <br>Machine Learning Engineer</p>
         <div class="links">
             <div>
-                <p>Git Hub</p>
+                <a href="https://github.com/TeoGM97" target="_blank" rel="noopener noreferrer">Git Hub</a>
                 <link rel="stylesheet" href="">
             </div>
             <div>
-                <p>LinkedIn</p>
+                <a href="https://www.linkedin.com/in/mateo-gonzalez-m/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 <link rel="stylesheet" href="">
             </div>
             <div>
-                <p>Biography</p>
+                <a href="https://www.instagram.com/mateo.gonzalez_m/" target="_blank" rel="noopener noreferrer">Instagram</a>
                 <link rel="stylesheet" href="">
             </div>
         </div>
-        <div class="Send Email">
-            <p>Send me an email clickih here</p>
+        <div class="SendEmail">
+            <p>Send me a message click here</p>
             <p>email: teogonmar97@gmail.com</p>
         </div>
     </div>
@@ -103,6 +123,6 @@
 
 <!--Ideas para la tarjeta:
     * Cuando se haga click en cualquiera de las dos fotos, se debe abrir y mostrar una breve descripcion
-    * Botones abajo con links de intterés
+    * Botones abajo con links de intterés. Al hacer click en un boton de interes, reaccione todo el botón, no solo el link.
     * Hipervinculo para enviar correo directamente a mi (teogonmar97@gmail.com)
     * Titulo con Nombre-->
