@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Personal Card</title>
-    <link rel='stylesheet' href="./styles.css"> <!-- CSS Styles-->
-    <script defer src="./main.js"></script> <!-- Actions and functionalities in JS-->
-</head>
-<body>
-    <div class="container">
-        <img class="banner"src="./img/descarga(3).png"alt="Banner">
-        <img class="profile-img"src="./img/IMG_1551.jpg"alt="Profile">
-        <h1 class="name">Mateo González Marulanda </h1>
-        <p class="rol">Front End Developer<br> and <br>Machine Learning Engineer</p>
-        <div class="links">
-            <div>
-                <a href="https://github.com/TeoGM97" target="_blank" rel="noopener noreferrer">Git Hub</a>
-                <link rel="stylesheet" href="">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Personal Card</title>
+        <link rel='stylesheet' href="./styles.css"> <!-- CSS Styles-->
+        <script defer src="./main.js"></script> <!-- Actions and functionalities in JS-->
+    </head>
+    <body>
+        <div class="container">
+            <img id="banner" class="banner"src="./img/descarga(3).png"alt="Banner">
+            <img id="profile" data-toggle="modal" data-target="#modal" class="profile-img" src="./img/IMG_1551.jpg" alt="Profile">
+            <h1 class="name">Mateo González Marulanda </h1>
+            <p class="rol">Front End Developer<br> and <br>Machine Learning Engineer</p>
+            <div class="links">
+                <button>
+                    <div>
+                        <a href="https://github.com/TeoGM97" target="_blank" rel="noopener noreferrer">Git Hub</a>
+                        <link rel="stylesheet" href="">
+                    </div>
+                </button>
+                <button>
+                    <div>
+                        <a href="https://www.linkedin.com/in/mateo-gonzalez-m/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <link rel="stylesheet" href="">
+                    </div>
+                </button>
+                <button>
+                    <div>
+                        <a href="https://www.instagram.com/mateo.gonzalez_m/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                        <link rel="stylesheet" href="">
+                    </div>
+                </button>
             </div>
-            <div>
-                <a href="https://www.linkedin.com/in/mateo-gonzalez-m/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                <link rel="stylesheet" href="">
-            </div>
-            <div>
-                <a href="https://www.instagram.com/mateo.gonzalez_m/" target="_blank" rel="noopener noreferrer">Instagram</a>
-                <link rel="stylesheet" href="">
+            <div class="SendEmail">
+                <p>Send me a message click here</p>
+                <p>email: teogonmar97@gmail.com</p>
             </div>
         </div>
-        <div class="SendEmail">
-            <p>Send me a message click here</p>
-            <p>email: teogonmar97@gmail.com</p>
-        </div>
-    </div>
-</body>
+    </body>
 </html>
 
 <!--Ideas para la tarjeta:
