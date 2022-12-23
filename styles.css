@@ -69,6 +69,7 @@ button{
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
+    background-color: #333333;
 }
 
 button.links {
@@ -76,7 +77,7 @@ button.links {
 }
 
 button.links:active {
-    box-shadow: 0 4px 10px rgb(24, 24, 24);
+    box-shadow: 0 4px 10px ;
     transform: translateY(4px);
 }
 
